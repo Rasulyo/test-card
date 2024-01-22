@@ -80,4 +80,18 @@ button {
   font-size: 16px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 767px) {
+  .card-container {
+    max-width: 420px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .card {
+    width: 90px;
+    height: 130px;
+    padding: 10px;
+  }
+}
 </style>
